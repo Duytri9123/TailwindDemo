@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white shadow-md w-full h-16 px-2 py-2.5 gap-2.5 relative">
+  <header class="bg-white shadow-sm w-full h-16 px-2 py-2.5 gap-2.5 relative z-50">
     <div class="container flex justify-between items-center mx-auto h-10">
       <!-- LOGO -->
       <a href="#" class="h-full">
