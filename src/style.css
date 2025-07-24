@@ -11,3 +11,16 @@
 body {
   font-family: var(--font-primary);
 }
+
+:root {
+  --color-orange-light: #FFB469;
+  --color-orange-dark: #E57709;
+  --color-green: #50c577;
+  --color-blue: #2dbefc;
+
+  --my-gradient: linear-gradient(to right, #50C577, #C4EACE, #B5E8FD);
+  --g-80: 80px;
+  --g-60: 60px;
+  --g-40: 40px;
+  --g-24: 24px;
+}

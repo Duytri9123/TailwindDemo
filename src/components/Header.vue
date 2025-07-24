@@ -11,40 +11,39 @@
       >
         <a
           href="#"
-          class="text-gray-700 hover:text-blue-600 font-roboto font-medium text-[18px] leading-6"
+          class="text-gray-800 hover:text-blue-600 font-roboto font-semibold text-lg leading-6"
           >Trang chủ</a
         >
         <a
           href="#"
-          class="text-gray-700 hover:text-blue-600 font-roboto font-medium text-[18px] leading-6"
+          class="text-gray-800 hover:text-blue-600 font-roboto font-semibold text-lg leading-6"
           >Giới thiệu</a
         >
         <a
           href="#"
-          class="text-gray-700 hover:text-blue-600 font-roboto font-medium text-[18px] leading-6"
+          class="text-gray-800 hover:text-blue-600 font-roboto font-semibold text-lg leading-6"
           >Sản phẩm</a
         >
         <a
           href="#"
-          class="text-gray-700 hover:text-blue-600 font-roboto font-medium text-[18px] leading-6"
+          class="text-gray-800 hover:text-blue-600 font-roboto font-semibold text-lg leading-6"
           >Dịch vụ</a
         >
         <a
           href="#"
-          class="text-gray-700 hover:text-blue-600 font-roboto font-medium text-[18px] leading-6"
+          class="text-gray-800 hover:text-blue-600 font-roboto font-semibold text-lg leading-6"
           >Tin tức</a
         >
         <a
           href="#"
-          class="text-gray-700 hover:text-blue-600 font-roboto font-medium text-[18px] leading-6"
+          class="text-gray-800 hover:text-blue-600 font-roboto font-semibold text-lg leading-6"
           >Liên hệ</a
         >
       </nav>
       <!-- Hotline -->
       <a
         href="tel:19001806"
-        class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white font-bold"
-        style="background: linear-gradient(to right, #ffb469, #e57709)"
+        class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white font-bold bg-gradient-to-r from-[#ffb469] to-[#eb8a03]  hover:to-[#e87a0c] hover:from-[#d38d47] drop-shadow-md/25"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -85,41 +84,44 @@
         v-show="isModal"
         class="lg:hidden bg-white py-2 shadow-md md:w-1/4 w-1/2 absolute right-0 top-full z-50 flex flex-col p-4"
       >
-        <nav class="flex flex-col items-center space-y-2 pb-4">
+        <a href="#" class="h-full">
+          <img src="../Images/logo.png" alt="logo" class="object-fit h-8 mb-2" />
+        </a>
+        <nav class="border-t-2 flex flex-col items-center space-y-2 pb-4">
           <a
             href="#"
             @click="isModal = false"
-            class="block text-gray-700 hover:text-blue-600 font-medium py-2 px-4 w-full text-center"
+            class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-2 px-4 w-full text-center"
             >Trang chủ</a
           >
           <a
             href="#"
             @click="isModal = false"
-            class="block text-gray-700 hover:text-blue-600 font-medium py-2 px-4 w-full text-center"
+            class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-2 px-4 w-full text-center"
             >Giới thiệu</a
           >
           <a
             href="#"
             @click="isModal = false"
-            class="block text-gray-700 hover:text-blue-600 font-medium py-2 px-4 w-full text-center"
+            class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-2 px-4 w-full text-center"
             >Sản phẩm</a
           >
           <a
             href="#"
             @click="isModal = false"
-            class="block text-gray-700 hover:text-blue-600 font-medium py-2 px-4 w-full text-center"
+            class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-2 px-4 w-full text-center"
             >Dịch vụ</a
           >
           <a
             href="#"
             @click="isModal = false"
-            class="block text-gray-700 hover:text-blue-600 font-medium py-2 px-4 w-full text-center"
+            class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-2 px-4 w-full text-center"
             >Tin tức</a
           >
           <a
             href="#"
             @click="isModal = false"
-            class="block text-gray-700 hover:text-blue-600 font-medium py-2 px-4 w-full text-center"
+            class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-2 px-4 w-full text-center"
             >Liên hệ</a
           >
         </nav>
