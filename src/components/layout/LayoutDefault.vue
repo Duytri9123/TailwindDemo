@@ -40,7 +40,7 @@
       </div>
     </div>
     <!-- section 4 -->
-    <Section4 />
+    <Section4/>
     <Section5/>
   </div>
 </template>
