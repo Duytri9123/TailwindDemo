@@ -53,7 +53,7 @@ import Banner from "../Banner.vue";
 import Section1 from "../Section1.vue";
 import Section2 from "../Section2.vue";
 import Section3 from "../Section3.vue";
-import Section4 from "../section4.vue";
+import Section4 from "../Section4.vue";
 import Section5 from "../Section5.vue";
 </script>
 
