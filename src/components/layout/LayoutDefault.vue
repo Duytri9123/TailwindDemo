@@ -39,9 +39,10 @@
         <Section3 />
       </div>
     </div>
+    <!-- section 4 -->
+    <Section4 />
+    <Section5/>
   </div>
-  <!-- section 4 -->
-  <!-- <Section4/> -->
 </template>
 
 <script setup>
@@ -52,7 +53,8 @@ import Banner from "../Banner.vue";
 import Section1 from "../Section1.vue";
 import Section2 from "../Section2.vue";
 import Section3 from "../Section3.vue";
-// import Section4 from "../section4.vue";
+import Section4 from "../section4.vue";
+import Section5 from "../Section5.vue";
 </script>
 
 <style lang="scss" scoped></style>
