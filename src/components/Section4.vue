@@ -1,18 +1,18 @@
 <template>
   <div class="relative w-full px-4 md:py-8 bg-white">
-    <div class="flex flex-row justify-evenly">
-      <h2 class="text-center text-lg md:text-2xl font-semibold mb-6 whitespace-nowrap">
+    <div class="flex lg:flex-row flex-col justify-evenly mb-6">
+      <h2 class=" text-lg md:text-2xl font-semibold whitespace-nowrap ">
         Hình ảnh về cơ sở vật chất, trang thiết bị
       </h2>
       <!-- Nút điều hướng -->
-      <div class="flex gap-2 z-10 mx-4">
+      <div class="flex gap-6 z-10 mx-4">
         <button
-          class="swiper-button-prev-custom w-8 h-8 text-white rounded-full flex items-center justify-center bg-linear-to-t from-[var(--color-orange-dark)] to-[var(--color-orange-light)] hover:to-30% drop-shadow-2xl/25"
+          class="swiper-button-prev-custom text-2xl w-10 h-10 text-white rounded-full flex items-center justify-center bg-button hover:bg-button drop-shadow-2xl/25"
         >
           ‹
         </button>
         <button
-          class="swiper-button-next-custom w-8 h-8 text-white rounded-full flex items-center justify-center bg-linear-to-t from-[var(--color-orange-dark)] to-[var(--color-orange-light)] hover:to-30% drop-shadow-2xl/25"
+          class="swiper-button-next-custom text-2xl w-10 h-10 text-white rounded-full flex items-center justify-center bg-button hover:bg-button drop-shadow-2xl/25"
         >
           ›
         </button>
@@ -35,7 +35,7 @@
       >
         <img
           :src="image"
-          class="w-full md:h-80 h-60 object-cover rounded-t-2xl rounded-br-2xl"
+          class="w-full md:h-80 h-60 max-w-60 object-cover rounded-t-2xl rounded-br-2xl"
         />
       </swiper-slide>
     </swiper>
@@ -58,14 +58,15 @@ const breakpoints = {
   768: { slidesPerView: 4 },
   1024: { slidesPerView: 5 },
   1280: { slidesPerView: 6 },
+  1563: { slidesPerView: 7 },
 };
 const baseImages = [
-  new URL("@/Images/modern-5.jpg", import.meta.url).href,
-  new URL("@/Images/modern-surgical.jpg", import.meta.url).href,
-  new URL("@/Images/h1.jpg", import.meta.url).href,
-  new URL("@/Images/mother-newborn.jpg", import.meta.url).href,
   new URL("@/Images/stomatological-1.jpg", import.meta.url).href,
-  new URL("@/Images/human-fetus.jpg", import.meta.url).href,
+  new URL("@/Images/modern-surgical.jpg", import.meta.url).href,
+  new URL("@/Images/dental3.jpg", import.meta.url).href,
+  new URL("@/Images/rendering4.jpg", import.meta.url).href,
+  new URL("@/Images/modern-5.jpg", import.meta.url).href,
+  new URL("@/Images/newest-6.jpg", import.meta.url).href,
 ];
 
 const images = [...baseImages, ...baseImages.slice(0, 2)];

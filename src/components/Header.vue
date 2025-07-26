@@ -43,7 +43,7 @@
       <!-- Hotline -->
       <a
         href="tel:19001806"
-        class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white font-bold bg-gradient-to-r from-[#ffb469] to-[#eb8a03]  hover:to-[#e87a0c] hover:from-[#d38d47] drop-shadow-md/25"
+        class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white font-bold bg-button hover:bg-button drop-shadow-md/25"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

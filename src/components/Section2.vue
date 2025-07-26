@@ -1,10 +1,9 @@
 <template>
   <section>
-    <div
-      class="w-screen relative flex justify-center"
-      style="background: var(--my-gradient)"
-    >
-      <div class="relative md:p-12 w-screen lg:w-8/10 rounded-b-3xl overflow-hidden drop-shadow-2xl/20">
+    <div class="w-screen relative flex justify-center bg-gradient-greenblue">
+      <div
+        class="relative md:p-12 w-screen lg:w-9/10 rounded-b-3xl overflow-hidden drop-shadow-2xl/20 z-20"
+      >
         <div class="bg-white rounded-b-3xl">
           <div class="lg:p-8 p-1">
             <div>
@@ -31,11 +30,11 @@
                 </div>
               </div>
             </div>
-            <div >
+            <div>
               <!-- table  -->
               <div>
                 <div
-                  class="bg-gradient-to-r from-[var(--color-green)] to-[var(--color-blue)] w-full overflow-hidden rounded-xl"
+                  class="bg-gradient-to-r from-[var(--color-green)] to-[var(--color-blue)] w-full overflow-hidden rounded-xl max-h-[550px] overflow-y-auto"
                 >
                   <table
                     class="w-full table-auto text-sm bg-white border border-gray-200 rounded-3xl"
@@ -76,7 +75,9 @@
                     </thead>
 
                     <tbody class="text-gray-700">
-                      <tr class="bg-white">
+                      <tr
+                        class="bg-white hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">1</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
@@ -88,7 +89,9 @@
                           400,000/giờ
                         </td>
                       </tr>
-                      <tr class="bg-gray-50">
+                      <tr
+                        class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">2</td>
                         <td class="py-3 px-4 border border-gray-200">Cắt chỉ</td>
                         <td class="py-3 px-4 text-center border border-gray-200">
@@ -98,7 +101,9 @@
                           300,000/lần
                         </td>
                       </tr>
-                      <tr class="bg-white">
+                      <tr
+                        class="bg-white hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">3</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Phương tiện bảo hộ lấy mẫu
@@ -110,7 +115,9 @@
                           300,000/lần
                         </td>
                       </tr>
-                      <tr class="bg-gray-50">
+                      <tr
+                        class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">4</td>
                         <td class="py-3 px-4 border border-gray-200">Tắm bé tại nhà</td>
                         <td class="py-3 px-4 text-center border border-gray-200">
@@ -120,7 +127,9 @@
                           300,000/lần
                         </td>
                       </tr>
-                      <tr class="bg-white">
+                      <tr
+                        class="bg-white hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">5</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Dẫn lưu nước tiểu bàng quang
@@ -132,7 +141,9 @@
                           300,000/lần
                         </td>
                       </tr>
-                      <tr class="bg-gray-50">
+                      <tr
+                        class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">6</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
@@ -144,7 +155,9 @@
                           400,000/giờ
                         </td>
                       </tr>
-                      <tr class="bg-white">
+                      <tr
+                        class="bg-white hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">7</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
@@ -156,7 +169,9 @@
                           400,000/giờ
                         </td>
                       </tr>
-                      <tr class="bg-gray-50">
+                      <tr
+                        class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">8</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Xét nghiệm tại nhà
@@ -168,7 +183,9 @@
                           Theo giá niêm yết tại BVĐK Phương Đông
                         </td>
                       </tr>
-                      <tr class="bg-white">
+                      <tr
+                        class="bg-white hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">9</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
@@ -180,7 +197,9 @@
                           400,000/giờ
                         </td>
                       </tr>
-                      <tr class="bg-gray-50">
+                      <tr
+                        class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">10</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
@@ -192,7 +211,9 @@
                           400,000/giờ
                         </td>
                       </tr>
-                      <tr class="bg-white">
+                      <tr
+                        class="bg-white hover:bg-emerald-100 transition-all duration-200"
+                      >
                         <td class="py-3 px-4 text-center border border-gray-200">11</td>
                         <td class="py-3 px-4 border border-gray-200">
                           Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng

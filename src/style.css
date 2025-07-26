@@ -4,6 +4,7 @@
 @theme {
   --font-primary: "Roboto", sans-serif;
   --font-arima: "Arima Madurai"
+  
 }
 
 @import "tailwindcss";
@@ -18,9 +19,25 @@ body {
   --color-green: #50c577;
   --color-blue: #2dbefc;
 
-  --my-gradient: linear-gradient(to right, #50C577, #C4EACE, #B5E8FD);
+  --my-gradient-green: linear-gradient(to right, #50C577, #C4EACE, #2dbefc);
   --g-80: 80px;
   --g-60: 60px;
   --g-40: 40px;
   --g-24: 24px;
+}
+.bg-gradient-greenblue
+{
+   background-image: var(--my-gradient-green);
+}
+.bg-gradient-mygreen {
+  background-image: linear-gradient(to right, #50C577, #2DBEFC);
+}
+
+.bg-button
+{
+  background-image: linear-gradient(to bottom, #FFB469, #E57709);
+}
+.bg-button:hover
+{
+  background-image: linear-gradient(to bottom, #f3a04c, #dc6f02);
 }

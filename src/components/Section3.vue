@@ -10,7 +10,7 @@
       </div>
 
       <div
-        class="relative z-30 w-full lg:w-5/12 -mt-16 lg:mt-0 lg:-ml-12 p-8 lg:p-12 bg-white rounded-t-xl rounded-br-xl shadow-2xl/30"
+        class="relative z-30 w-full lg:w-6/12 -mt-16 md:mt-0 lg:-ml-20 p-4 lg:p-8 bg-white rounded-t-xl rounded-br-xl shadow-2xl/30"
       >
         <div class="flex flex-col gap-4">
           <h2
@@ -25,7 +25,7 @@
           </p>
 
           <button
-            class="mt-4 w-fit px-6 py-3 bg-gradient-to-t from-orange-500 to-orange-400 text-white font-semibold rounded-full shadow-lg shadow-orange-500/30 hover:to-orange-500 transition-all duration-300 ease-in-out"
+            class="mt-4 w-fit px-6 py-3 text-white font-semibold rounded-full shadow-lg shadow-orange-500/30 bg-button hover:bg-button transition-all duration-300 ease-in-out"
           >
             Đăng ký tư vấn
           </button>
