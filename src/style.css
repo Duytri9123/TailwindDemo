@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;700&family=Roboto:wght@400;500;600;700&display=swap');
 
 @theme {
   --font-primary: "Roboto", sans-serif;
-  --font-arima: "Arima Madurai"
+  --font-arima: "Arima Madurai";
   
 }
 
@@ -32,7 +32,9 @@ body {
 .bg-gradient-mygreen {
   background-image: linear-gradient(to right, #50C577, #2DBEFC);
 }
-
+.bg-gradient-mygreen:hover {
+  background-image: linear-gradient(to right, #2DBEFC, #50C577);
+}
 .bg-button
 {
   background-image: linear-gradient(to bottom, #FFB469, #E57709);

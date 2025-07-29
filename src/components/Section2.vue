@@ -34,7 +34,7 @@
               <!-- table  -->
               <div>
                 <div
-                  class="bg-gradient-to-r from-[var(--color-green)] to-[var(--color-blue)] w-full overflow-hidden rounded-xl max-h-[550px] overflow-y-auto"
+                  class="bg-gradient-mygreen w-full overflow-hidden rounded-xl max-h-[550px] overflow-y-auto"
                 >
                   <table
                     class="w-full table-auto text-sm bg-white border border-gray-200 rounded-3xl"
@@ -73,7 +73,11 @@
                         </th>
                       </tr>
                     </thead>
-
+                  </table>
+                <div class="max-h-[450px] overflow-y-auto">
+                  <table
+                    class="w-full table-auto text-sm bg-white border border-t-0 border-gray-200"
+                  >
                     <tbody class="text-gray-700">
                       <tr
                         class="bg-white hover:bg-emerald-100 transition-all duration-200"
@@ -231,59 +235,131 @@
               </div>
             </div>
           </div>
-
-          <div
-            class="w-full flex justify-center rounded-b-3xl bg-gradient-to-r from-[var(--color-green)] to-[var(--color-blue)]"
-          >
-            <div class="flex whitespace-nowrap">
-              <div>
-                <a
-                  href="tel:19001806"
-                  class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white font-bold drop-shadow-md/25"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-                    />
-                  </svg>
-                  <span>Hotline: 1900 1806</span>
-                </a>
-              </div>
-
-              <div
-                class="w-fit px-4 py-2 rounded-md text-white flex items-center gap-2 font-bold drop-shadow-md/25"
+        </div>
+        <div class="w-full flex justify-center rounded-b-3xl bg-gradient-mygreen">
+          <div class="flex whitespace-nowrap">
+            <div>
+              <a
+                href="tel:19001806"
+                class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white font-bold drop-shadow-md/25"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  fill="none"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M18.965 16.6102L17.792 15.4372C17.206 14.8512 16.256 14.8512 15.671 15.4372L14.749 16.3592C14.543 16.5652 14.231 16.6342 13.965 16.5172C12.629 15.9322 11.309 15.0452 10.132 13.8682C8.96002 12.6962 8.07602 11.3822 7.49002 10.0512C7.36802 9.77621 7.43902 9.45321 7.65202 9.24021L8.47802 8.41421C9.14902 7.74321 9.14902 6.79421 8.56302 6.20821L7.39002 5.03521C6.60902 4.25421 5.34302 4.25421 4.56202 5.03521L3.91002 5.68621C3.16902 6.42721 2.86002 7.49621 3.06002 8.55621C3.55402 11.1692 5.07202 14.0302 7.52102 16.4792C9.97002 18.9282 12.831 20.4462 15.444 20.9402C16.504 21.1402 17.573 20.8312 18.314 20.0902L18.965 19.4392C19.746 18.6582 19.746 17.3922 18.965 16.6102V16.6102Z"
+                    stroke="white"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 0c2.21 0 4 4.03 4 9s-1.79 9-4 9-4-4.03-4-9 1.79-9 4-9zm0 0v18"
+                  />
+                  <path
+                    d="M13 6.99109C14.031 6.97709 15.067 7.35909 15.854 8.14609"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.682 5.31811C17.113 3.74911 15.056 2.96411 13 2.96411"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.009 11C17.023 9.969 16.641 8.933 15.854 8.146"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.682 5.31812C20.251 6.88712 21.036 8.94412 21.036 11.0001"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                 </svg>
-                <a
-                  href="https://benhvienphuongdong.vn/"
-                  target="_blank"
-                  class="hover:underline"
-                >
-                  https://benhvienphuongdong.vn/
-                </a>
-              </div>
+
+                <span>Hotline: 1900 1806</span>
+              </a>
+            </div>
+
+            <div
+              class="w-fit px-4 py-2 rounded-md text-white flex items-center gap-2 font-bold drop-shadow-md/25"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 3.1001C16.667 8.0271 16.667 15.9731 12 20.9001"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 20.9001C7.33301 15.9731 7.33301 8.0271 12 3.1001"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 3C16.982 3 21 7.018 21 12C21 16.982 16.982 21 12 21"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 21C7.018 21 3 16.982 3 12C3 7.018 7.018 3 12 3"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.51001 9H20.49"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.51001 15H20.49"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <a
+                href="https://benhvienphuongdong.vn/"
+                target="_blank"
+                class="hover:underline"
+              >
+                https://benhvienphuongdong.vn/
+              </a>
             </div>
           </div>
         </div>
       </div>
+
+    </div>
     </div>
   </section>
 </template>

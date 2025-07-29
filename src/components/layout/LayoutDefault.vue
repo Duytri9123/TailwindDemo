@@ -1,30 +1,29 @@
 <template>
-  <div class="overflow-x-hidden h-screen w-screen">
+  <div class="overflow-hidden w-screen">
     <Header/>
     <Hero/>
 
     <!-- banner -->
-    <div class="relative w-full lg:mb-12">
-      <div class="absolute top-0 w-7/20 -translate-y-1/2 left-1/6">
+    <div class="relative w-full ">
+      <div class="absolute top-0 w-7/20 -translate-y-1/2 left-2/11">
         <Ellipse/>
       </div>
-      <div class="relative lg:top-12 top-6 w-full lg:left-1/9">
+      <div class="relative transform lg:translate-y-1/6 mx-2 w-full">
         <Banner/>
       </div>
     </div>
-
     <!-- section 1 -->
-    <div class="relative w-full lg:mb-12">
-      <div class="absolute -bottom-1/2 w-3/10 -left-1/10">
+    <div class="relative w-full">
+      <div class="absolute -bottom-2/3 w-4/10 -left-1/8">
         <Ellipse/>
       </div>
-      <div class="relative w-full">
+      <div class="relative w-full transform lg:translate-y-1/20 -translate-y-1/10">
         <Section1/>
       </div>
     </div>
     <!-- section 2 -->
-    <div class="relative w-full lg:mb-12 top-2 mb-3">
-      <div class="absolute -bottom-1/10 w-2/10 -right-1/20 z-10">
+    <div class="relative w-full top-2 mb-3">
+      <div class="absolute -bottom-3/10 w-3/10 -right-1/15 z-10">
         <Ellipse/>
       </div>
       <div class="relative w-full">
@@ -33,7 +32,7 @@
     </div>
 
     <!-- section 3 -->
-    <div class="relative w-full lg:mb-12 top-2">
+    <div class="relative w-full top-2">
       <div class="absolute translate-y-3/5 w-3/10 right-3/8 z-10">
         <Ellipse/>
       </div>
@@ -44,7 +43,7 @@
     <!-- section 4 -->
     <Section4 />
     <!-- section 5 -->
-    <div class="relative w-full lg:mb-12 top-2">
+    <div class="relative w-full top-2">
       <div class="absolute w-3/10 -left-1/10 top-0">
         <Ellipse/>
       </div>

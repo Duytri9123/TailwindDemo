@@ -1,6 +1,8 @@
 <template>
   <footer class="bg-gradient-mygreen text-white pt-12 pb-6 px-6 md:px-16">
+  
     <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+
       <div class="flex flex-col items-start gap-2">
         <img src="../Images/logo.png" alt="Logo Phương Đông" class="h-10 mb-2" />
         <h3 class="font-semibold">BỆNH VIỆN ĐA KHOA PHƯƠNG ĐÔNG</h3>
