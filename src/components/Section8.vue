@@ -1,12 +1,12 @@
 <template>
-  <section class="w-8/9 lg:w-6/8 flex flex-col lg:flex-row my-16 justify-center items-center">
-    <div class="flex flex-col justify-center lg:w-1/2 w-full gap-10 px-4">
+  <section class="w-8/9 lg:w-6/8 flex flex-col lg:flex-row lg:mt-16 justify-center items-center">
+    <div class="flex flex-col justify-center lg:w-1/2 w-full gap-10">
       <h1 class="text-lg md:text-xl lg:text-3xl xl:text-4xl font-medium">
         Tại sao bạn nên chọn gói dịch vụ thai sản tại bệnh viện Phương Đông
       </h1>
       <div class="flex flex-col gap-4">
         <div>
-          <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+          <h6 class="font-semibold text-base lg:text-lg text-gray-800">
             Khám định kỳ với Bác sĩ sản khoa.
           </h6>
           <p class="text-gray-600">
@@ -14,7 +14,7 @@
           </p>
         </div>
         <div>
-          <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+          <h6 class="font-semibold text-base lg:text-lg text-gray-800">
             Chăm sóc thai kỳ cùng bác sĩ Sản khoa hàng đầuKhám định kỳ với Bác sĩ sản
             khoa.
           </h6>
@@ -23,7 +23,7 @@
           </p>
         </div>
         <div>
-          <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+          <h6 class="font-semibold text-base lg:text-lg text-gray-800">
             Ekip đón bé chuyên môn cao, có khả năng xử lý nhiều ca khó
           </h6>
           <p class="text-gray-600">

@@ -9,7 +9,7 @@
         v-if="!isPlaying"
         src="../Images/male-female-doctor.jpg"
         alt="premature-baby"
-        class="w-full 2xl:aspect-video lg:aspect-square object-cover "
+        class="w-full 2xl:aspect-video lg:aspect-square object-cover"
       />
       <div
         v-if="!isPlaying"
@@ -43,6 +43,7 @@
 
       <div
         v-if="isPlaying"
+        @click.self="isPlaying = false"
         class="fixed inset-0 bg-black/40 bg-opacity-80 z-50 flex items-center justify-center"
       >
         <div class="relative w-full max-w-7xl aspect-video px-4">

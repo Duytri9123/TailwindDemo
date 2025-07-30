@@ -17,7 +17,7 @@
 
     <div class="flex flex-col gap-6">
       <!-- slide 1 -->
-      <div class="w-full grid grid-cols-2">
+      <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <!-- item 1 -->
         <div class="flex flex-col gap-6">
           <svg
@@ -228,7 +228,7 @@
       </div>
 
       <!-- slide 2 -->
-      <div class="w-full grid grid-cols-2">
+      <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <!-- item 2 -->
         <div class="flex flex-col gap-6 lg:translate-x-1/2">
           <svg

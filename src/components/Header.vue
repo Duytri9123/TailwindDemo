@@ -16,15 +16,7 @@
       <!-- navigate -->
       <nav class="hidden lg:flex items-center gap-x-4 xl:gap-x-8 2xl:gap-x-14">
         <a
-          v-for="(item, index) in [
-            'Ưu đãi',
-            'Dịch vụ',
-            'Giới thiệu',
-            'Đội ngũ bác sĩ',
-            'Bảng giá',
-            'Thư viện',
-            'Liên hệ',
-          ]"
+          v-for="(item, index) in navtive"
           :key="index"
           href="#"
           class="font-roboto font-medium text-gray-800 hover:text-blue-600 hover:underline text-sm md:text-base xl:text-lg whitespace-nowrap"
@@ -144,46 +136,12 @@
 
           <nav class="relative flex flex-col pb-4 bg-blue-100/30 h-full">
             <a
+              v-for="(item, index) in navtive"
+              :key="index"
               href="#"
               @click="isModal = false"
               class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-2 border-gray-200"
-              >Ưu đãi</a
-            >
-            <a
-              href="#"
-              @click="isModal = false"
-              class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-1 border-gray-200"
-              >Dịch vụ</a
-            >
-            <a
-              href="#"
-              @click="isModal = false"
-              class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-1 border-gray-200"
-              >Giới thiệu</a
-            >
-            <a
-              href="#"
-              @click="isModal = false"
-              class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-1 border-gray-200"
-              >Đội ngũ bác sĩ</a
-            >
-            <a
-              href="#"
-              @click="isModal = false"
-              class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-1 border-gray-200"
-              >Bảng giá</a
-            >
-            <a
-              href="#"
-              @click="isModal = false"
-              class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-1 border-gray-200"
-              >Thư viện</a
-            >
-            <a
-              href="#"
-              @click="isModal = false"
-              class="block text-gray-700 hover:text-blue-600 hover:bg-amber-100 font-medium py-4 px-4 w-full shadow-[0_2px_0_rgba(0,0,0,0.2)] transform hover:translate-y-1 transition duration-300 border-t-1 border-gray-200"
-              >Liên hệ</a
+              >{{ item }}</a
             >
           </nav>
         </div>
@@ -195,6 +153,15 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
+const navtive = ref([
+  "Ưu đãi",
+  "Dịch vụ",
+  "Giới thiệu",
+  "Đội ngũ bác sĩ",
+  "Bảng giá",
+  "Thư viện",
+  "Liên hệ",
+]);
 const isModal = ref(false);
 const isHidden = ref(false);
 let lastScrollY = window.scrollY;

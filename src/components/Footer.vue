@@ -51,25 +51,25 @@
       </div>
 
       <div class="flex flex-row xl:items-start items-center gap-8 text-white mt-5">
-        <div class="w-1/2 flex flex-col items-start gap-8 text-white">
+        <div class="w-1/2 xl:w-full flex flex-col items-start gap-8 text-white">
           <h4 class="font-medium lg:text-2xl md:text-xl text-lg">Giờ làm việc</h4>
           <div class="flex flex-col gap-3">
-            <p class="lg:text-base text-sm whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
               Từ 7:00 - 19:00 từ Thứ 2 đến CN
             </p>
-            <p class="lg:text-base text-sm whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
               Cấp cứu 24/7: 0833 015 115
             </p>
-            <p class="lg:text-base text-sm whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
               Hotline Tiêm chủng: 0911 615 115
             </p>
-            <p class="lg:text-base text-sm whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
               Hotline Hỗ trợ khách hàng: 1900 1806
             </p>
           </div>
         </div>
-        <div class="w-1/2 flex flex-col items-start gap-6 text-white">
-          <h4 class="font-medium lg:text-2xl md:text-xl text-lg whitespace-nowrap">
+        <div class="w-1/2 xl:w-full flex flex-col items-start gap-6 text-white">
+          <h4 class="font-medium lg:text-2xl md:text-xl text-lg lg:whitespace-nowrap">
             Theo dõi chúng tôi
           </h4>
           <div class="flex items-center gap-6">
@@ -151,7 +151,7 @@
               </svg>
             </a>
           </div>
-          <div class="xl:w-8/9 lg:w-3/7 w-1/2 flex items-center">
+          <div class="xl:w-8/9 lg:w-3/7 md:w-1/2 w-4/5 flex items-center">
             <img
               src="../Images/Bocongthuong.png"
               alt="Đã thông báo Bộ Công Thương"
