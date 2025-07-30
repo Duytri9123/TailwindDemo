@@ -1,10 +1,10 @@
 <template>
-  <section class="w-7/8 grid md:grid-cols-2 grid-cols-1">
-    <div class="flex flex-col justify-center w-full md:p-8 p-1">
-      <h1 class="text-base md:text-lg lg:text-xl xl:text-2xl font-bold mb-4">
+  <section class="w-8/9 lg:w-6/8 flex flex-col lg:flex-row my-16 justify-center items-center">
+    <div class="flex flex-col justify-center lg:w-1/2 w-full gap-10 px-4">
+      <h1 class="text-lg md:text-xl lg:text-3xl xl:text-4xl font-medium">
         Tại sao bạn nên chọn gói dịch vụ thai sản tại bệnh viện Phương Đông
       </h1>
-      <div class="space-y-4">
+      <div class="flex flex-col gap-4">
         <div>
           <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
             Khám định kỳ với Bác sĩ sản khoa.
@@ -40,13 +40,63 @@
           </p>
         </div>
       </div>
-      <button
-        class="mt-4 w-fit px-6 py-3 bg-button hover:bg-button text-white font-semibold rounded-full shadow-lg shadow-orange-500/30  transition-all duration-300 ease-in-out"
-      >
-        Liên hệ ngay
-      </button>
+      <div class="max-w-60 h-12 flex items-center justify-start">
+        <a
+          href="tel:19001806"
+          class="hidden lg:flex flex-row items-center h-full rounded-4xl lg:px-6 px-6 pr-6 gap-2 text-white font-medium bg-button hover:bg-button drop-shadow-md/25"
+        >
+          <svg
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.965 17.4973L17.792 16.3243C17.206 15.7383 16.256 15.7383 15.671 16.3243L14.749 17.2463C14.543 17.4523 14.231 17.5213 13.965 17.4043C12.629 16.8193 11.309 15.9323 10.132 14.7553C8.96002 13.5833 8.07602 12.2693 7.49002 10.9383C7.36802 10.6633 7.43902 10.3403 7.65202 10.1273L8.47802 9.3013C9.14902 8.6303 9.14902 7.6813 8.56302 7.0953L7.39002 5.9223C6.60902 5.1413 5.34302 5.1413 4.56202 5.9223L3.91002 6.5733C3.16902 7.3143 2.86002 8.3833 3.06002 9.4433C3.55402 12.0563 5.07202 14.9173 7.52102 17.3663C9.97003 19.8153 12.831 21.3333 15.444 21.8273C16.504 22.0273 17.573 21.7183 18.314 20.9773L18.965 20.3263C19.746 19.5453 19.746 18.2793 18.965 17.4973Z"
+              fill="white"
+              stroke="white"
+              stroke-width="0.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M13 7.8783C14.031 7.8643 15.067 8.2463 15.854 9.0333"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18.682 6.20529C17.113 4.63629 15.056 3.85129 13 3.85129"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M17.009 11.8873C17.023 10.8563 16.641 9.82029 15.854 9.03329"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18.682 6.20529C20.251 7.77429 21.036 9.83129 21.036 11.8873"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <span>Liên hệ ngay</span>
+        </a>
+      </div>
     </div>
-    <div class="w-full">
+    <div class="lg:w-1/2 w-full">
       <svg
         width="full"
         viewBox="0 0 760 699"

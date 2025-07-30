@@ -1,12 +1,14 @@
 <template>
   <section class="w-screen flex lg:flex-row flex-col lg:gap-10 gap-4 items-center justify-between px-6 ">
     <!-- img -->
-    <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
-      <img
-        src="../Images/h1.jpg"
-        alt=""
-        class="md:w-3/4 w-full object-cover xl:aspect-[10/9] lg:aspect-[4/5] lg:rounded-b-[var(--g-80)] lg:rounded-tr-[var(--g-80)] rounded-b-[var(--g-40)] rounded-tr-[var(--g-40)]"
-      />
+    <div class="w-full lg:w-1/2 flex justify-center lg:justify-end ">
+      <div class="md:w-3/4 w-full overflow-hidden xl:aspect-[10/9] lg:aspect-[3/5] lg:rounded-b-[var(--g-80)] lg:rounded-tr-[var(--g-80)] rounded-b-[var(--g-40)] rounded-tr-[var(--g-40)]">
+        <img
+          src="../Images/h1.jpg"
+          alt=""
+          class="w-full h-full object-cover shadow-lg"
+        />
+    </div>
     </div>
     <!-- dich vu -->
     <div class="w-full lg:w-1/2 space-y-4 flex justify-center flex-col gap-2">
@@ -15,7 +17,7 @@
         <span class="text-nowrap font-semibold lg:text-4xl md:text-xl text-lg align-top"
           >Dịch vụ thai sản trọn gói</span
         >
-        <span class="text-sm md:text-base text-gray-500 tracking-[0.5px] w-3/4">
+        <span class="text-sm md:text-base text-gray-500 tracking-[0.5px] lg:w-3/4">
           Mang thai và sinh nở là một hành trình vô cùng kỳ diệu nhưng cũng lắm mệt mỏi,
           áp lực, thậm chí là nguy hiểm. Thấu hiểu nỗi niềm đó, dịch vụ thai sản trọn gói
           Phương Đông nhằm mang tới trải nghiệm nhẹ nhàng, an tâm cho người mẹ trong suốt

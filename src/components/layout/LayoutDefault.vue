@@ -32,8 +32,8 @@
     </div>
 
     <!-- section 3 -->
-    <div class="relative w-full top-2">
-      <div class="absolute translate-y-3/5 w-3/10 right-3/8 z-10">
+    <div class="relative w-full">
+      <div class="absolute translate-y-9/20 w-3/10 right-1/3 z-10">
         <Ellipse/>
       </div>
       <div class="relative w-full">
@@ -47,7 +47,7 @@
       <div class="absolute w-3/10 -left-1/10 top-0">
         <Ellipse/>
       </div>
-      <div class="relative w-full">
+      <div class="relative  w-full">
         <Section5/>
       </div>
     </div>

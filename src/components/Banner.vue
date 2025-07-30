@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-screen z-50 flex lg:flex-row flex-col lg:gap-4 gap-6 transform translate-x-0 lg:translate-x-1/8 px-2"
+    class="w-screen z-50 flex lg:flex-row flex-col xl:gap-4 lg:gap-10 gap-6 transform translate-x-0 lg:translate-x-1/8 px-2"
   >
     <div class="w-full lg:w-1/4 flex flex-col lg:gap-12 gap-4 mx-auto">
       <div
@@ -83,11 +83,15 @@
             class="cursor-pointer relative aspect-[2/3] overflow-clip rounded-tl-[40px] rounded-br-[40px]"
           >
             <!-- Ảnh -->
-            <img
-              src="../Images/human-fetus.jpg"
-              alt=""
-              class="w-full scale-100 -translate-y-11 transition-all duration-500 xl:rounded-tl-[40px] lg:rounded-tl-4xl md:rounded-tl-3xl"
-            />
+            <div class="w-full scale-100 -translate-y-11 transition-all duration-500 xl:rounded-tl-[40px] lg:rounded-tl-4xl md:rounded-tl-3xl">
+              <img
+                src="../Images/human-fetus.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+
+            </div>
+
             <!-- Nội dung -->
             <div
               class="group cursor-pointer w-full transform 2xl:-translate-y-1/2 lg:-translate-y-1/3 -translate-y-1/2 mx-auto bg-white hover:bg-[linear-gradient(to_right,#50C577,#2DBEFC)] lg:rounded-tl-[40px] lg:rounded-tr-[40px] lg:rounded-br-[40px] rounded-tl-4xl rounded-tr-4xl rounded-br-4xl md:px-4 px-2 py-6 md:gap-4 gap-2 shadow-md/5"
@@ -100,7 +104,7 @@
                     Ưu đãi 50%
                   </span>
                   <span
-                    class="font-roboto font-medium text-gray-800 group-hover:text-white text-base md:text-[20px] lg:text-lg 2xl:text-[22px] text-nowrap"
+                    class="font-roboto font-medium text-gray-800 group-hover:text-white text-sm md:text-[20px] lg:text-lg 2xl:text-[22px] text-nowrap"
                   >
                     Gói khám thai tổng quát
                   </span>

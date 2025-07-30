@@ -1,21 +1,25 @@
 <template>
-  <section class="w-7/8 flex flex-col">
-    <div class="flex flex-col justify-center items-center px-4 md:px-8 py-2 md:py-8">
-      <h1 class="font-bold text-lg md:text-xl lg:text-2xl xl:text-3xl mb-4 text-center">
+  <section class="w-8/9 lg:w-6/8 flex flex-col gap-6 mb-20">
+    <div class="flex flex-col justify-center items-center px-2 lg:px-8 py-2 md:py-8">
+      <h1
+        class="font-medium text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-4 text-center"
+      >
         Hậu quả chuyển dạ và sinh non nếu không điều trị kịp thời
       </h1>
-      <p class="text-gray-600 text-base md:text-lg text-center max-w-prose">
+      <p
+        class="lg:w-6/9 w-7/9 text-gray-600 md:text-base tracking-[0.5px] text-sm text-center"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, odio in turpis nunc
         mollis diam viverra dictum. Tortor sed sapien ut tellus. Nunc etiam consectetur
         consectetur amet Habitant facilisis malesuada suscipit mus
       </p>
     </div>
 
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-6">
       <!-- slide 1 -->
       <div class="w-full grid grid-cols-2">
         <!-- item 1 -->
-        <div class="col-span-1">
+        <div class="flex flex-col gap-6">
           <svg
             width="96"
             height="97"
@@ -114,10 +118,13 @@
             </defs>
           </svg>
           <div class="lg:w-1/2 w-full">
-            <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+            <div
+              class="opacity-60 absolute bg-gradient-greenblue w-5 aspect-square rounded-full -z-40"
+            ></div>
+            <h6 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-800">
               Gây sảy thai
             </h6>
-            <p class="text-gray-600 max-w-prose">
+            <p class="text-gray-600 max-w-prose tracking-[0.5px] text-sm md:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi
               mauris, turpis fringilla condimentum urna sagittis
             </p>
@@ -125,7 +132,7 @@
         </div>
 
         <!-- item 3 -->
-        <div class="col-span-1">
+        <div class="flex flex-col gap-6">
           <svg
             width="96"
             height="97"
@@ -206,10 +213,13 @@
             </defs>
           </svg>
           <div class="lg:w-1/2 w-full">
-            <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+            <div
+              class=" absolute bg-gradient-greenblue opacity-60 w-5 aspect-square rounded-full -z-40"
+            ></div>
+            <h6 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-800">
               Nguy hiểm cho cả hai mẹ con
             </h6>
-            <p class="text-gray-600 max-w-prose">
+            <p class="text-gray-600 max-w-prose tracking-[0.5px] text-sm md:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi
               mauris, turpis fringilla condimentum urna sagittis
             </p>
@@ -220,10 +230,10 @@
       <!-- slide 2 -->
       <div class="w-full grid grid-cols-2">
         <!-- item 2 -->
-        <div class="col-span-1 lg:translate-x-1/2">
+        <div class="flex flex-col gap-6 lg:translate-x-1/2">
           <svg
-            width="78"
-            height="80"
+            width="96"
+            height="97"
             viewBox="0 0 78 80"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -286,17 +296,20 @@
             />
           </svg>
           <div class="lg:w-1/2 w-full">
-            <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+            <div
+              class="opacity-60 absolute bg-gradient-greenblue w-5 aspect-square rounded-full -z-40"
+            ></div>
+            <h6 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-800">
               Sinh sản gặp khó khăn
             </h6>
-            <p class="text-gray-600 max-w-prose">
+            <p class="text-gray-600 max-w-prose tracking-[0.5px] text-sm md:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi
               mauris, turpis fringilla condimentum urna sagittis
             </p>
           </div>
         </div>
         <!-- item 4 -->
-        <div class="col-span-1 lg:translate-x-1/2">
+        <div class="flex flex-col gap-6 lg:translate-x-1/2">
           <svg
             width="96"
             height="97"
@@ -360,10 +373,13 @@
           </svg>
 
           <div class="lg:w-1/2 w-full">
-            <h6 class="font-semibold text-sm md:text-base lg:text-lg text-gray-800">
+            <div
+              class="opacity-60 absolute bg-gradient-greenblue w-5 aspect-square rounded-full -z-40"
+            ></div>
+            <h6 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-800">
               Gây mất khả năng sinh sản
             </h6>
-            <p class="text-gray-600 max-w-prose">
+            <p class="text-gray-600 max-w-prose tracking-[0.5px] text-sm md:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi
               mauris, turpis fringilla condimentum urna sagittis
             </p>

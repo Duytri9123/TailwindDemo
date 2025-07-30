@@ -4,7 +4,7 @@
       'fixed top-0 left-0 right-0 z-50 bg-white shadow-lg transition-transform duration-500',
       isHidden ? '-translate-y-full' : 'translate-y-0',
     ]"
-    class="w-screen flex justify-center items-center px-4 md:px-6 lg:px-10 xl:px-16 py-2 md:py-2.5 h-12 md:h-14 lg:h-16"
+    class="w-screen flex justify-center items-center px-4 md:px-6 lg:px-10 xl:px-16 py-2 md:py-2.5 h-14 lg:h-16"
   >
     <div
       class="flex justify-between items-center lg:h-10 h-8 2xl:gap-24 xl:gap-12 lg:gap-8 w-full xl:w-auto"
