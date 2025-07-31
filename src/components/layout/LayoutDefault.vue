@@ -17,12 +17,12 @@
       <div class="absolute -bottom-2/3 w-4/10 -left-1/8">
         <Ellipse/>
       </div>
-      <div class="relative w-full transform lg:translate-y-1/20 -translate-y-1/10">
+      <div class="relative w-full transform lg:translate-y-1/20">
         <Section1/>
       </div>
     </div>
     <!-- section 2 -->
-    <div class="relative w-full top-2 mb-3">
+    <div class="relative w-full lg:top-2 mb-3">
       <div class="absolute -bottom-3/10 w-3/10 -right-1/15 z-10">
         <Ellipse/>
       </div>
@@ -52,7 +52,7 @@
       </div>
     </div>
     <!-- section 6 -->
-    <div class="relative w-full lg:mb-28 mb-6 top-2">
+    <div class="relative w-full lg:mb-28 mb-8 top-2">
       <div class="absolute w-3/10 -right-1/10 -translate-y-1/2 z-0">
         <Ellipse/>
       </div>
@@ -64,7 +64,7 @@
       </div>
     </div>
     <!-- section 7 -->
-    <div class="relative w-full lg:mb-28 flex justify-center">
+    <div class="relative w-full lg:mb-28 mb-5 flex justify-center">
       <div class="absolute w-4/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <Ellipse/>
       </div>

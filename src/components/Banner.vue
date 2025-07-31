@@ -4,7 +4,7 @@
   >
     <div class="w-full lg:w-1/4 flex flex-col lg:gap-12 gap-4 mx-auto">
       <div
-        class="w-full lg:w-full lg:gap-4 gap-2 flex flex-col items-center lg:items-start justify-center lg:justify-start "
+        class="w-full lg:w-full lg:gap-4 gap-2 flex flex-col items-center lg:items-start justify-center lg:justify-start m-2 "
       >
         <h1
           class="xl:text-[36px] lg:text-3xl text-xl font-medium text-black font-roboto text-nowrap lg:gap-4 gap-2"
@@ -83,7 +83,7 @@
             class="cursor-pointer relative aspect-[2/3] overflow-clip rounded-tl-[40px] rounded-br-[40px]"
           >
             <!-- Ảnh -->
-            <div class="w-full scale-100 -translate-y-11 transition-all duration-500 xl:rounded-tl-[40px] lg:rounded-tl-4xl md:rounded-tl-3xl">
+            <div class="w-full scale-100 md:-translate-y-11 -translate-y-7 transition-all duration-500 xl:rounded-tl-[40px] lg:rounded-tl-4xl md:rounded-tl-3xl">
               <img
                 src="../Images/human-fetus.jpg"
                 alt=""
@@ -94,7 +94,7 @@
 
             <!-- Nội dung -->
             <div
-              class="group cursor-pointer w-full transform 2xl:-translate-y-1/2 lg:-translate-y-1/3 -translate-y-1/2 mx-auto bg-white hover:bg-[linear-gradient(to_right,#50C577,#2DBEFC)] lg:rounded-tl-[40px] lg:rounded-tr-[40px] lg:rounded-br-[40px] rounded-tl-4xl rounded-tr-4xl rounded-br-4xl md:px-4 px-2 py-6 md:gap-4 gap-2 shadow-md/5"
+              class="group cursor-pointer w-full transform 2xl:-translate-y-1/2 lg:-translate-y-1/3 md:-translate-y-1/2 -translate-y-1/4 mx-auto bg-white hover:bg-[linear-gradient(to_right,#50C577,#2DBEFC)] lg:rounded-tl-[40px] lg:rounded-tr-[40px] lg:rounded-br-[40px] rounded-tl-4xl rounded-tr-4xl rounded-br-4xl md:px-4 px-2 py-6 md:gap-4 gap-2 shadow-md/5"
             >
               <div class="flex flex-col justify-center items-center text-center gap-4">
                 <div class="flex flex-col items-center gap-2">
@@ -109,7 +109,7 @@
                     Gói khám thai tổng quát
                   </span>
                   <span
-                    class="font-roboto font-normal tracking-[0.5px] text-gray-600 group-hover:text-white text-xs md:text-base"
+                    class="font-roboto font-normal md:tracking-[0.5px] text-gray-600 group-hover:text-white text-xs md:text-base"
                   >
                     Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit
                     turpis.

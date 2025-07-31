@@ -1,5 +1,5 @@
 <template>
-  <section class="w-screen flex lg:flex-row flex-col lg:gap-10 gap-4 items-center justify-between px-6 ">
+  <section class="w-screen flex lg:flex-row flex-col lg:gap-10 gap-4 items-center justify-between px-6 mb-10 ">
     <!-- img -->
     <div class="w-full lg:w-1/2 flex justify-center lg:justify-end ">
       <div class="md:w-3/4 w-full overflow-hidden xl:aspect-[10/9] lg:aspect-[3/5] lg:rounded-b-[var(--g-80)] lg:rounded-tr-[var(--g-80)] rounded-b-[var(--g-40)] rounded-tr-[var(--g-40)]">
@@ -73,7 +73,7 @@
 
       <a
         href="tel:123456"
-        class="cursor-pointer relative left-0 max-w-30 mt-2 px-5 py-2 md:px-6 md:py-2.5 bg-button hover:bg-button drop-shadow-2xl/20 rounded-full text-white text-xs sm:text-sm lg:text-base font-semibold text-nowrap text-center"
+        class="cursor-pointer relative left-0 max-w-30 mt-2 px-5 py-2 md:px-6 md:py-3 bg-button hover:bg-button drop-shadow-2xl/20 rounded-full text-white text-xs sm:text-sm lg:text-base font-semibold text-nowrap text-center"
       >
         Liên hệ
       </a>

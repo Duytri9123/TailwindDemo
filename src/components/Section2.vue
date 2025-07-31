@@ -4,14 +4,14 @@
       class="w-screen relative flex justify-center bg-gradient-greenblue lg:mt-28 md:px-10 px-1"
     >
       <div
-        class="relative z-50 lg:pt-20 pt-10 w-screen lg:w-8/10 rounded-b-3xl overflow-hidden drop-shadow-2xl/20 border-gradient xl:mb-20 lg:mb-12 mb-6"
+        class="relative z-50 lg:pt-20 pt-10 w-screen lg:w-8/10 rounded-b-3xl drop-shadow-2xl/20 border-gradient xl:mb-20 lg:mb-12 mb-6 flex items-center justify-center"
       >
-        <div class="bg-white rounded-b-3xl">
-          <div class="lg:p-6 p-1">
+        <div class="bg-white rounded-b-3xl overflow-x-auto">
+          <div class="lg:p-6 p-2">
             <div>
               <div>
                 <!-- title -->
-                <div  
+                <div
                   class="flex lg:flex-row flex-col w-full p-4 bg-white text-center items-center gap-2"
                 >
                   <div class="items-center gap-2">
@@ -37,16 +37,16 @@
 
             <!-- table  -->
             <div
-              class="bg-gradient-mygreen w-full overflow-hidden rounded-xl max-h-[550px]"
+              class="bg-gradient-mygreen w-full rounded-xl max-h-[550px] overflow-hidden"
             >
               <table
-                class="w-full table-fixed lg:text-base tracking-[0.1px] text-sm border border-gray-200 rounded-t-xl"
+                class="w-full table-fixed lg:text-base tracking-[0.1px] md:text-sm text-xs border border-gray-200 rounded-t-xl"
               >
                 <thead class="bg-gradient-mygreen text-white sticky top-0 z-10">
                   <tr>
                     <th
                       rowspan="2"
-                      class="border border-gray-200 py-3  uppercase font-medium text-center lg:lg:w-[5%] w-[10%] "
+                      class="border border-gray-200 py-3 uppercase font-medium text-center lg:lg:w-[5%] w-[10%]"
                     >
                       STT
                     </th>
@@ -58,23 +58,23 @@
                     </th>
                     <th
                       colspan="2"
-                      class="border border-gray-200 py-3 px-4 uppercase font-medium text-center w-[50%]"
+                      class="border border-gray-200 py-3 px-4 uppercase font-medium text-center w-[49%]"
                     >
                       GIÁ DỊCH VỤ DÀNH CHO KHÁCH HÀNG CÓ QUỐC TỊCH
                     </th>
                     <th
                       rowspan="2"
-                      class="border border-gray-200 py-3 uppercase font-medium text-center lg:w-4 md:w-1 "
+                      class="border border-gray-200 py-3 uppercase font-medium text-center lg:w-4 md:w-1"
                     ></th>
                   </tr>
                   <tr>
                     <th
-                      class="border border-gray-200 py-2 px-4 font-medium text-center w-[25%] "
+                      class="border border-gray-200 py-2 px-4 font-medium text-center w-[25%]"
                     >
                       Việt Nam
                     </th>
                     <th
-                      class="border border-gray-200 py-2 px-4 font-medium text-center w-[25%] "
+                      class="border border-gray-200 py-2 px-4 font-medium text-center w-[25%]"
                     >
                       Nước ngoài
                     </th>
@@ -83,130 +83,240 @@
               </table>
 
               <div class="max-h-[500px] overflow-y-auto w-full">
-                <table class="w-full table-fixed lg:text-base text-sm border border-gray-200">
+                <table
+                  class="w-full table-fixed lg:text-base md:text-sm text-xs border border-gray-200"
+                >
                   <tbody>
                     <tr class="bg-white hover:bg-emerald-100 transition-all duration-200">
-                      <td class="lg:w-[5%] w-[10%]  py-3 border border-gray-200 text-gray-700 text-center">1</td>
-                      <td class="lg:w-[45%] w-[40%] px-4 py-3 border border-gray-200 text-gray-700">
+                      <td
+                        class="lg:w-[5%] w-[10%] py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        1
+                      </td>
+                      <td
+                        class="lg:w-[45%] w-[40%] px-4 py-3 border border-gray-200 text-gray-700"
+                      >
                         Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
                       </td>
-                      <td class="w-[25%] px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="w-[25%] px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
+                      <td
+                        class="w-[25%] px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        200,000/giờ
+                      </td>
+                      <td
+                        class="w-[25%] px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        400,000/giờ
+                      </td>
                     </tr>
 
                     <tr
                       class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
                     >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">2</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700">Cắt chỉ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        2
+                      </td>
+                      <td class="px-4 py-3 border border-gray-200 text-gray-700">
+                        Cắt chỉ
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
                     </tr>
 
                     <tr class="bg-white hover:bg-emerald-100 transition-all duration-200">
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">3</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700">Phương tiện bảo hộ lấy mẫu</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        3
+                      </td>
+                      <td class="px-4 py-3 border border-gray-200 text-gray-700">
+                        Phương tiện bảo hộ lấy mẫu
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
                     </tr>
 
                     <tr
                       class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
                     >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">4</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700">Tắm bé tại nhà</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        4
+                      </td>
+                      <td class="px-4 py-3 border border-gray-200 text-gray-700">
+                        Tắm bé tại nhà
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
                     </tr>
 
                     <tr class="bg-white hover:bg-emerald-100 transition-all duration-200">
-                      <td class="py-3 border border-gray-200 text-gray-700 text-center">5</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700">Dẫn lưu nước tiểu bàng quang</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">300,000/lần</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        5
+                      </td>
+                      <td class="px-4 py-3 border border-gray-200 text-gray-700">
+                        Dẫn lưu nước tiểu bàng quang
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        300,000/lần
+                      </td>
                     </tr>
 
                     <tr
                       class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
                     >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">6</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        6
+                      </td>
                       <td class="px-4 py-3 border border-gray-200 text-gray-700">
                         Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
                       </td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        200,000/giờ
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        400,000/giờ
+                      </td>
                     </tr>
 
                     <tr class="bg-white hover:bg-emerald-100 transition-all duration-200">
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">7</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        7
+                      </td>
                       <td class="px-4 py-3 border border-gray-200 text-gray-700">
                         Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
                       </td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        200,000/giờ
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        400,000/giờ
+                      </td>
                     </tr>
 
                     <tr
                       class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
                     >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">8</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700">Xét nghiệm tại nhà</td>
-                      <td colspan="2" class="px-4 py-3 border border-gray-200 text-gray-700 text-center">
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        8
+                      </td>
+                      <td class="px-4 py-3 border border-gray-200 text-gray-700">
+                        Xét nghiệm tại nhà
+                      </td>
+                      <td
+                        colspan="2"
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
                         Theo giá niêm yết tại BVĐK Phương Đông
                       </td>
                     </tr>
 
                     <tr class="bg-white hover:bg-emerald-100 transition-all duration-200">
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">9</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        9
+                      </td>
                       <td class="px-4 py-3 border border-gray-200 text-gray-700">
                         Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
                       </td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        200,000/giờ
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        400,000/giờ
+                      </td>
                     </tr>
 
                     <tr
                       class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
                     >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">10</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        10
+                      </td>
                       <td class="px-4 py-3 border border-gray-200 text-gray-700">
                         Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
                       </td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        200,000/giờ
+                      </td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        400,000/giờ
+                      </td>
                     </tr>
-                                        <tr
+                    <tr
                       class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
                     >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">11</td>
+                      <td class="py-3 border border-gray-200 text-gray-700 text-center">
+                        11
+                      </td>
                       <td class="px-4 py-3 border border-gray-200 text-gray-700">
                         Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
                       </td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
-                    </tr>
-                                        <tr
-                      class="bg-gray-50 hover:bg-emerald-100 transition-all duration-200"
-                    >
-                      <td class=" py-3 border border-gray-200 text-gray-700 text-center">10</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700">
-                        Chăm sóc điều dưỡng tại nhà - Bệnh nhân nặng
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        200,000/giờ
                       </td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">200,000/giờ</td>
-                      <td class="px-4 py-3 border border-gray-200 text-gray-700 text-center">400,000/giờ</td>
+                      <td
+                        class="px-4 py-3 border border-gray-200 text-gray-700 text-center"
+                      >
+                        400,000/giờ
+                      </td>
                     </tr>
-
                   </tbody>
                 </table>
               </div>
             </div>
           </div>
           <div class="w-full flex justify-center rounded-b-3xl bg-gradient-mygreen">
-            <div class="flex whitespace-nowrap">
+            <div class="flex lg:flex-row flex-col items-center justify-center my-1">
               <div>
-                <a
+                <a  
                   href="tel:19001806"
-                  class="hidden lg:flex flex-row items-center h-full rounded-[40px] px-4 pr-6 gap-2 text-white"
+                  class="flex flex-row items-center h-full rounded-[40px] px-4 md:pr-6 gap-2 text-white whitespace-nowrap text-xs md:text-sm lg:text-base"
                 >
                   <svg
                     width="24"
@@ -258,7 +368,9 @@
                 </a>
               </div>
 
-              <div class="w-fit px-4 py-2 rounded-md text-white flex items-center gap-2">
+              <div
+                class="w-fit px-4 py-2 rounded-md text-white flex items-center gap-2 md:text-sm lg:text-base text-xs"
+              >
                 <svg
                   width="24"
                   height="24"

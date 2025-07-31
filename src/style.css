@@ -4,7 +4,7 @@
 @theme {
   --font-primary: "Roboto", sans-serif;
   --font-arima: "Arima Madurai";
-  
+
 }
 
 @import "tailwindcss";
@@ -25,29 +25,36 @@ body {
   --g-40: 40px;
   --g-24: 24px;
 }
-.bg-gradient-greenblue
-{
-   background-image: var(--my-gradient-green);
-  
+
+.bg-gradient-greenblue {
+  background-image: var(--my-gradient-green);
+
 }
+
 .bg-gradient-mygreen {
   background-image: linear-gradient(to right, #50C577, #2DBEFC);
 }
 
-.bg-button
-{
+.bg-button {
   background-image: linear-gradient(to bottom, #FFB469, #E57709);
 }
-.bg-button:hover
-{
+
+.bg-button:hover {
   background-image: linear-gradient(to bottom, #f3a04c, #dc6f02);
 }
+
 .border-gradient {
-    border: 4px solid transparent;
-    background-image:linear-gradient(to right, #50C577, #2DBEFC);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-  }
-  .footer-curved-top {
+  border: 4px solid transparent;
+  background-image: linear-gradient(to right, #50C577, #2DBEFC);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.footer-curved-top {
   clip-path: ellipse(95% 100% at 50% 100%);
+}
+
+@media (max-width: 1023px) {
+  .footer-curved-top {
+    clip-path: ellipse(200% 100% at 50% 100%);
+  }
 }

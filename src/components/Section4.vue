@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col relative w-full px-4 lg:mt-44 mt-10 bg-white lg:gap-8 gap-4 space-y-8 items-center justify-center"
+    class="flex flex-col relative w-full px-4 lg:mt-44 mt-10 bg-white lg:gap-8 gap-4 space-y-8 items-center justify-center lg:mb-16"
   >
     <div class="lg:w-5/7 flex lg:flex-row flex-col justify-between lg:gap-8 gap-6">
       <h1 class="text-xl md:text-4xl lg:text-4xl font-medium whitespace-nowrap">
@@ -81,10 +81,9 @@
         <swiper-slide
           v-for="(image, index) in images"
           :key="index"
-          @click.self="showZoom = false"
           class="flex items-center justify-center"
         >
-          <div>
+          <div @click.self="showZoom = false">
             <img
               :src="image"
               class="max-h-[70vh] object-contain rounded-xl mx-auto my-auto"

@@ -1,48 +1,48 @@
 <template>
   <footer
-    class="footer-curved-top w-screen bg-gradient-mygreen text-white flex flex-col  items-center"
+    class="footer-curved-top w-screen bg-gradient-mygreen text-white flex flex-col  items-center "
   >
     <div
-      class="w-8/9 lg:w-6/8 flex xl:flex-row flex-col items-center justify-center gap-10 pt-30"
+      class="md:w-8/9 lg:w-6/8 w-full p-1 flex xl:flex-row flex-col items-center justify-center gap-10 pt-30"
     >
-      <div class="flex flex-row xl:gap-8 text-white">
+      <div class="w-full flex flex-row xl:gap-8 text-white">
 
         <div class="xl:w-full w-1/2 flex flex-col items-start gap-8 text-white">
           <div class="flex items-start gap-4 w-3/4">
             <img src="../Images/Logo1.png" alt="Logo Phương Đông" />
           </div>
           <div class="flex flex-col gap-2">
-            <h3 class="font-medium lg:text-lg text-base uppercase lg:whitespace-nowrap">
+            <h3 class="font-medium lg:text-lg md:text-base text-sm uppercase lg:whitespace-nowrap">
               BỆNH VIỆN ĐA KHOA PHƯƠNG ĐÔNG
             </h3>
-            <p class="lg:text-base text-sm text-white tracking-[0.5px] font-normal">
+            <p class="lg:text-base md:text-sm text-xs text-white tracking-[0.5px] font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna sit morbi nisl
               contale consectetur pellentesque ullamcorper con viverra id cursus
               hendreritenim ultricies
             </p>
           </div>
         </div>
-        <div class="xl:w-full w-1/2 flex flex-col items-start gap-8 text-white lg:mt-5 mt-4">
+        <div class="xl:w-full w-1/2 flex flex-col items-start gap-8 text-white lg:mt-5 mt-1">
           <h4 class="font-medium lg:text-2xl md:text-xl text-lg">Thông tin liên hệ</h4>
           <div class="flex flex-col gap-3">
-            <p class="lg:text-base text-sm xl:whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base md:text-sm text-xs xl:whitespace-nowrap lg:tracking-[0.5px]">
               Địa chỉ:
-              <span class="text-white font-medium"
+              <span class="text-white font-medium break-all"
                 >Số 9, Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</span
               >
             </p>
-            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base md:text-sm text-xs lg:whitespace-nowrap lg:tracking-[0.5px]">
               Email:
-              <a href="mailto:byphuongdong@phuongdonghospital.vn" class="font-medium"
+              <a href="mailto:byphuongdong@phuongdonghospital.vn" class="font-medium break-all "
                 >byphuongdong@phuongdonghospital.vn</a
               >
             </p>
             <p
-              class="lg:text-base text-sm lg:whitespace-nowrap font-medium tracking-[0.5px]"
+              class="lg:text-base md:text-sm text-xs lg:whitespace-nowrap font-medium lg:tracking-[0.5px] break-all"
             >
               info.benhvienphuongdong@gmail.com
             </p>
-            <p class="lg:text-base text-sm whitespace-nowrap">
+            <p class="lg:text-base md:text-sm text-xs whitespace-nowrap">
               Tổng đài tư vấn: <strong>19001806</strong>
             </p>
           </div>
@@ -50,20 +50,21 @@
 
       </div>
 
-      <div class="flex flex-row xl:items-start items-center gap-8 text-white mt-5">
+      <div class="flex flex-row items-start lg:gap-8 text-white mt-5">
         <div class="w-1/2 xl:w-full flex flex-col items-start gap-8 text-white">
           <h4 class="font-medium lg:text-2xl md:text-xl text-lg">Giờ làm việc</h4>
-          <div class="flex flex-col gap-3">
-            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
+          
+          <div class="flex flex-col lg:gap-3 gap-2">
+            <p class="lg:text-base md:text-sm text-xs lg:whitespace-nowrap tracking-[0.5px]">
               Từ 7:00 - 19:00 từ Thứ 2 đến CN
             </p>
-            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base md:text-sm text-xs lg:whitespace-nowrap tracking-[0.5px]">
               Cấp cứu 24/7: 0833 015 115
             </p>
-            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base md:text-sm text-xs lg:whitespace-nowrap tracking-[0.5px]">
               Hotline Tiêm chủng: 0911 615 115
             </p>
-            <p class="lg:text-base text-sm lg:whitespace-nowrap tracking-[0.5px]">
+            <p class="lg:text-base md:text-sm text-xs lg:whitespace-nowrap tracking-[0.5px]">
               Hotline Hỗ trợ khách hàng: 1900 1806
             </p>
           </div>
@@ -163,7 +164,7 @@
     </div>
 
     <div
-      class="border-t w-screen border-white/14 text-white text-base mt-10 p-5 items-center flex justify-center"
+      class="border-t w-screen border-white/14 text-white text-base mt-10 p-5 items-center flex justify-center text-center"
     >
       © Copyright 2022 Bệnh Viện Đa khoa Phương Đông. All rights reserved
     </div>

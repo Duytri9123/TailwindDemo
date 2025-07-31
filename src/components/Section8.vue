@@ -1,6 +1,6 @@
 <template>
   <section class="w-8/9 lg:w-6/8 flex flex-col lg:flex-row lg:mt-16 justify-center items-center">
-    <div class="flex flex-col justify-center lg:w-1/2 w-full gap-10">
+    <div class="flex flex-col justify-center lg:w-1/2 w-full lg:gap-10 gap-6">
       <h1 class="text-lg md:text-xl lg:text-3xl xl:text-4xl font-medium">
         Tại sao bạn nên chọn gói dịch vụ thai sản tại bệnh viện Phương Đông
       </h1>
@@ -43,7 +43,7 @@
       <div class="max-w-60 h-12 flex items-center justify-start">
         <a
           href="tel:19001806"
-          class="hidden lg:flex flex-row items-center h-full rounded-4xl lg:px-6 px-6 pr-6 gap-2 text-white font-medium bg-button hover:bg-button drop-shadow-md/25"
+          class="flex flex-row items-center rounded-4xl lg:px-6 px-4 py-2 lg:py-3 gap-2 text-white font-medium bg-button hover:bg-button drop-shadow-md/25"
         >
           <svg
             width="24"

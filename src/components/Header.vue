@@ -103,7 +103,7 @@
       <div
         v-show="isModal"
         @click.self="closeModal"
-        class="bg-gray-200/50 h-screen w-screen fixed top-0 left-0 lg:hidden"
+        class="bg-gray-700/50 h-screen w-screen fixed top-0 left-0 lg:hidden"
       >
         <div
           class="lg:hidden bg-white h-screen flex md:w-1/2 w-3/4 fixed top-0 right-0 flex-col shadow-lg"
