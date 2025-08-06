@@ -1,10 +1,10 @@
 <template>
-  <div class="overflow-hidden w-screen">
+  <div class="w-[calc(100%-3px)]] overflow-hidden">
     <Header/>
     <Hero/>
 
     <!-- banner -->
-    <div class="relative w-full ">
+    <div class="relative w-screen ">
       <div class="absolute top-0 w-7/20 -translate-y-1/2 left-2/11">
         <Ellipse/>
       </div>

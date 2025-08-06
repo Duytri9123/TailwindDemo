@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-screen z-50 flex lg:flex-row flex-col xl:gap-4 lg:gap-10 gap-6 transform translate-x-0 lg:translate-x-1/8 px-2"
+    class="w-container overflow-x-hidden z-50 flex lg:flex-row flex-col xl:gap-4 lg:gap-10 gap-6 transform translate-x-0 lg:translate-x-1/8 px-2"
   >
     <div class="w-full lg:w-1/4 flex flex-col lg:gap-12 gap-4 mx-auto">
       <div
