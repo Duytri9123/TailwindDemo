@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative w-full overflow-hidden z-20 bg-white lg:pt-20 pt-6">
+    <div class="relative w-full overflow-hidden z-20 bg-white xl:pt-20 lg:pt-10 pt-6">
       <div class="flex flex-col lg:flex-row items-center justify-center">
         <div
           class="relative w-9/10 lg:w-4/7  flex justify-end"

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col relative w-full px-4 lg:mt-44 mt-10 bg-white lg:gap-8 gap-4 space-y-8 items-center justify-center lg:mb-16"
+    class="flex flex-col relative w-full px-4 xl:mt-30 mt-10 bg-white lg:gap-8 gap-4 space-y-8 items-center justify-center lg:mb-16"
   >
     <div class="lg:w-5/7 flex lg:flex-row flex-col justify-between lg:gap-8 gap-6">
       <h1 class="text-xl md:text-4xl lg:text-4xl font-medium whitespace-nowrap">

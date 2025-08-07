@@ -1,5 +1,5 @@
 <template>
-  <section class="w-8/9 lg:w-6/8 flex flex-col lg:flex-row lg:mt-16 justify-center items-center">
+  <section class="w-8/9 xl:w-6/8 flex flex-col lg:flex-row  justify-center items-center">
     <div class="flex flex-col justify-center lg:w-1/2 w-full lg:gap-10 gap-6">
       <h1 class="text-lg md:text-xl lg:text-3xl xl:text-4xl font-medium">
         Tại sao bạn nên chọn gói dịch vụ thai sản tại bệnh viện Phương Đông

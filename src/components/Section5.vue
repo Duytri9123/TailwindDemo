@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center mb-16 lg:p-4 pt-10">
-    <div class="w-8/9 lg:w-6/8 mx-auto">
+    <div class="w-8/9 xl:w-6/8 mx-auto">
       <div class="flex lg:flex-row flex-col justify-between gap-4">
         <h1 class="text-base md:text-3xl lg:text-4xl font-medium whitespace-nowrap">
           Đội ngũ bác sĩ bệnh viện đa khoa Phương Đông
@@ -52,22 +52,6 @@
               />
             </svg>
 
-            <svg
-              v-else
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <!-- Icon đóng -->
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
 
             {{ showSearch ? "Đóng tìm kiếm" : "Tìm bác sĩ" }}
           </button>

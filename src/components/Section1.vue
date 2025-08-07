@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-screen flex lg:flex-row flex-col lg:gap-10 gap-4 items-center justify-between px-6 mb-10"
+    class="w-screen flex lg:flex-row flex-col lg:gap-10 gap-4 items-center justify-between px-6 lg:mb-10 mb-5 -translate-y-10 sm:-translate-y-8 md:-translate-y-16 lg:-translate-y-0 "
   >
     <!-- img -->
     <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">

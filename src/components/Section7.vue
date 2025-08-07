@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center">
-    <section class="w-8/9 lg:w-6/8 grid lg:grid-cols-2 grid-cols-1 lg:gap-8 gap-4">
+    <section class="w-8/9 xl:w-6/8 grid lg:grid-cols-2 grid-cols-1 lg:gap-8 gap-4">
       <div
         class="relative w-full overflow-hidden rounded-t-2xl rounded-br-2xl md:rounded-t-3xl md:rounded-br-3xl lg:rounded-t-4xl lg:rounded-br-4xl"
       >

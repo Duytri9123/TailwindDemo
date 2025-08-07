@@ -1,5 +1,5 @@
 <template>
-  <section class="w-8/9 lg:w-6/8 grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-0">
+  <section class="w-8/9 xl:w-6/8 grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-0">
 
       <div
         class="overflow-hidden rounded-t-3xl rounded-bl-3xl md:rounded-t-4xl md:rounded-bl-4xl lg:rounded-t-[var(--g-80)] lg:rounded-bl-[var(--g-80)]"

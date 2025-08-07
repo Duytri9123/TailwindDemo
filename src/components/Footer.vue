@@ -3,7 +3,7 @@
     class="footer-curved-top w-screen bg-gradient-mygreen text-white flex flex-col  items-center "
   >
     <div
-      class="md:w-8/9 lg:w-6/8 w-full p-1 flex xl:flex-row flex-col items-center justify-center gap-10 pt-30"
+      class="md:w-8/9 xl:w-6/8 w-full p-1 flex xl:flex-row flex-col items-center justify-center gap-10 pt-30"
     >
       <div class="w-full flex flex-row xl:gap-8 text-white">
 

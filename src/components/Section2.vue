@@ -82,7 +82,7 @@
                 </thead>
               </table>
 
-              <div class="max-h-[500px] overflow-y-auto w-full">
+              <div class="max-h-[400px]  overflow-y-auto w-full">
                 <table
                   class="w-full table-fixed lg:text-base md:text-sm text-xs border border-gray-200"
                 >
