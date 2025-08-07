@@ -78,7 +78,7 @@
         </div>
       </div>
 
-      <div class="w-full p-1 flex flex-col lg:gap-10 gap-6">
+      <div class="w-full p-1 flex flex-col justify-center lg:gap-10 gap-6">
         <div class="flex flex-col lg:gap-10 gap-6">
           <h1 class="text-lg md:text-2xl lg:text-2xl xl:text-4xl font-medium">
             Giải pháp an toàn hãy lựa chọn dịch vụ thai sản trọn gói tại bệnh viện Phương
