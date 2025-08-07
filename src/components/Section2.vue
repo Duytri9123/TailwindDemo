@@ -58,13 +58,13 @@
                     </th>
                     <th
                       colspan="2"
-                      class="border border-gray-200 py-3 px-4 uppercase font-medium text-center w-[49%]"
+                      class="border border-gray-200 py-3 px-4 uppercase font-medium text-center w-[50%]"
                     >
                       GIÁ DỊCH VỤ DÀNH CHO KHÁCH HÀNG CÓ QUỐC TỊCH
                     </th>
                     <th
                       rowspan="2"
-                      class="border border-gray-200 py-3 uppercase font-medium text-center lg:w-4 md:w-1"
+                      class="border border-gray-200 py-3 uppercase font-medium text-center lg:w-4 sm:w-4"
                     ></th>
                   </tr>
                   <tr>
