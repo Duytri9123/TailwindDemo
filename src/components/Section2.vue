@@ -4,7 +4,7 @@
       class="w-screen relative flex justify-center bg-gradient-greenblue lg:mt-28 md:px-10 px-1"
     >
       <div
-        class="relative z-50 lg:pt-20 pt-10 w-screen lg:w-8/10 rounded-b-3xl drop-shadow-2xl/20 border-gradient xl:mb-20 lg:mb-12 mb-6 flex items-center justify-center"
+        class="relative z-40 lg:pt-20 pt-10 w-screen lg:w-8/10 rounded-b-3xl drop-shadow-2xl/20 border-gradient xl:mb-20 lg:mb-12 mb-6 flex items-center justify-center"
       >
         <div class="bg-white rounded-b-3xl overflow-x-auto">
           <div class="lg:p-6 p-2">
